@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta name="viewport" content="width= auto, initial-scale=1.0">
+<title>Portfolio Site</title> 
+<link rel="stylesheet" href="2.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">    
+    <center>
+        <button class="button1" onclick="refer()"><strong>Home</strong></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="button1" onclick="refer1()"><strong>Resume</strong></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="button1" onclick="refer2()"><strong>Hobbies</strong></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="button1" onclick="refer3()"><strong>Contact</strong></button>
+    </center>
+    <div class="nav-link" id="nav-link">
+        <i class="fa fa-close" onclick="closeSlide()"></i>
+        <b onclick="refer()" class="list">&nbsp;Home &nbsp;</b>
+        <b onclick="refer1()" class="list">&nbsp;Resume &nbsp;</b>
+        <b onclick="refer2()" class="list">&nbsp;Hobbies &nbsp;</b>
+        <b onclick="refer3()" class="list">&nbsp;Contact &nbsp;</b>
+</div>
+<i class="fa fa-bars" onclick="showSlide()"></i>
+</div>
+<div class="bottom">
+    <h2>Hi! Myself Himanshi Jain🙋‍♀️</h2>
+</div>
+<div class="nav">
+    <div class="content"><h1><b>Life is not about finding yourself.Life is about creating yourself.</b></h1>
+    </div>
+</div>    
+    <div id="bottom1">
+        <h3 style="color: rgb(4, 2, 32); margin-bottom: 100px;margin-top: 40px;font-size: 30px;"><b>Hobbies</b></h3>
+        <!--<h4><strong>Sketching</strong></h4>!-->
+    <div id="img1">
+        <center><img src="images/img36.jpg" height="400px" width="600px"></center>
+        <div id="content5"><h4><strong>Sketching</strong></h4></div>
+    </div>
+    <div id="bottom2">
+        <center>
+        <h3><b>Contact Me</b></h3>
+        <label><b>Your name:</b></label><br><br>
+        <input type="text" name="username" id="name" maxlength="25" value="" placeholder="Enter name"><br><br><br><br>
+        <label><b>Your Email:</b></label><br><br>
+        <input type="text" name="email_address" id="email" value="" placeholder="Enter email"><br><br><br><br>
+        <label><b>Subject:</b></label><br><br>
+        <input type="text" name="sub" id="subject" value="" maxlength="80" placeholder="Write subject"><br><br><br><br>
+        <label><b>Message:</b></label><br><br>
+        <textarea name="message" id="body" rows="5" cols="50" maxlength="250" placeholder="Write something"></textarea><br><br><br><br>
+        <button class="button" value="submit" onclick= 'send()'>Send</button>
+        <h3 style="margin-bottom: 60px;"><b>Follow me on:</b></h3>
+        <a href="https://www.instagram.com/himanshijain129/"><img src="images/im39.png" height="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/himanshi.jain.73/"><img src="images/img32.webp" height="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/himanshi-jain-70aa87155/?originalSubdomain=in"><img src="images/img40.png" height="45px"></a>
+        </center>
+    </div>
+</div>
+<script src="2.js"></script>
+</body></html>
